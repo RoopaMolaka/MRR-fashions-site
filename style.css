@@ -1,0 +1,391 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Courgette&family=Moon+Dance&family=Schibsted+Grotesk&family=Zilla+Slab:wght@500&display=swap');
+
+
+
+body{
+  margin: 0px;
+  padding: 0px;
+}
+.main-container{
+  position: fixed;
+  width: 100%;
+  font-weight: bold;
+  display:flex;
+  background-color: white;
+  justify-content: space-around;
+  align-items: center;
+  padding: 15px;
+  
+}
+.style a{
+  padding: 0px 15px ;
+  font-size: 18px;
+  font-family: 'Schibsted Grotesk', sans-serif;
+  text-decoration: none;
+  color: black;
+}
+#header-styling{
+  font-family: 'Beau Rivage', cursive;
+   font-size: 40px;
+
+
+}
+.style a:hover{
+  cursor: pointer;
+  color:burlywood;
+}
+
+.header{
+ margin:20px 15px  ;
+}
+.button-styling:hover{
+  cursor: pointer;
+  background-color:burlywood;
+}
+.button-styling{
+  border-radius: 5px;
+  border: none;
+  background-color: black;
+  color: white;
+  padding: 10px 30px;
+  font-size: 18px;
+  margin:10px auto;
+}
+.containerr{
+  
+  background-color: black;
+  background-size: cover;
+  display: flex;
+  flex-wrap:wrap ;
+}
+
+.image-thumbnail{
+  width: 50%;
+}
+.details-card{
+  display:flex;
+  justify-content: space-around;
+  font-size: 18px;
+  font-family: 'Schibsted Grotesk', sans-serif;
+}
+.innerdiv{
+  text-align: center;
+
+}
+.styling{
+  margin:40px 20px;
+  background-color:#EFEFEF;
+  display: flex;
+  flex-wrap: wrap;
+}
+.img-style{
+  width:calc(50% - 60px);
+  color: white;
+  height: 628px;
+  margin: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  background-image: url(https://i.pinimg.com/originals/98/f7/cf/98f7cfada83f6d6981ee6e03bf208d02.png);
+}
+.imgg-style{
+  width:calc(50% - 60px);
+  color: white;
+  height: 628px;
+  margin: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  background-image:url(https://i.pinimg.com/originals/aa/16/c1/aa16c1965da8043a269e4cefa3bcd96d.jpg);
+
+}
+.innn-div,.inn-div{ 
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+
+}
+.in-div{
+  padding: 10px;
+}
+.img-styling{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 40px 20px;
+}
+.new-pic-style{
+  width:calc(25% - 40px);
+  margin:20px;
+
+}
+.anchor{
+  text-align: center;
+  margin-top: 10px;
+  font-size: 22px;
+}
+.anchor a{
+
+  text-decoration: none;
+  
+  
+}
+.anchor a:hover{
+  cursor: pointer;
+  color:burlywood;}
+
+
+
+.ig-styling {
+width: 100%;
+height:400px;
+}
+.box-4{
+  display: flex;
+  width: 100%;
+  margin-bottom:0px 20px 100px 20px;
+
+
+}
+.box-4 div{
+  margin: 20px;
+  width:calc(25% - 2px - 40px) ;
+  display: flex;
+  flex-direction: column;
+
+
+}
+.img{
+  height:100%;
+  
+}
+.in-div1{
+  padding: 60px 40px;
+}
+.name-style{
+  color: #767676; ;
+  font: size 18px; ;
+}
+.in-div2{
+  box-sizing: content-box;
+}
+
+.in-div3{
+  background-color:#E7D8D6;
+  padding: 60px 40px;
+}
+.in-div4{
+  padding: 100px 40px;
+}
+.btn{
+  background-color: black;
+  color: white;
+  padding: 10px 0px ;
+  border: none;
+  font-size: large;
+}
+.btn:hover{
+  cursor: pointer;
+  background-color:burlywood;}
+.check{
+  background-color: black;
+  color: white;
+  padding: 60px;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+  
+}
+.check i{
+  color: brown;
+  padding: 20px;
+
+}
+.check-info{
+  display: block;
+
+}
+.progress-wrapper{
+  width: 500px;
+  height: 10px;
+  border: 1px solid black;
+}
+#progress-bar-6{
+  background-color: brown;
+  height: 100%;
+  width: 95%;
+  max-width: 500px;
+
+}
+#progress-bar-1{
+  background-color: brown;
+  height: 100%;
+  width: 69%;
+  max-width: 500px;}
+  #progress-bar-2{
+      background-color: brown;
+      height: 100%;
+      width: 64%;
+      max-width: 500px;}
+      #progress-bar-3{
+          background-color: brown;
+          height: 100%;
+          width: 70%;
+          max-width: 500px;}
+          #progress-bar-4{
+              background-color: brown;
+              height: 100%;
+              width: 69%;
+              max-width: 500px;}
+   #progress-bar-5{
+  background-color: brown;
+  height: 100%;
+  width: 87%;
+  max-width: 500px;}
+.feature-container{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px 20px;
+}
+  
+.f-div{
+width: calc(50% - 60px);
+margin:20px 20px;
+}
+.t-head{
+  display: flex;
+
+}
+.h-review{
+justify-content: center; 
+text-align: center;  
+
+}
+.reviews{
+  display: flex;
+  flex-wrap:wrap ;
+  justify-content: space-around;
+  margin: 20px;
+}
+  
+.c-reviews{
+  width: calc(25% - 2px - 80px);
+  margin: 10px;
+  background-color:#EFEFEF;
+  padding:30px;
+  font-family: 'Schibsted Grotesk', sans-serif;
+  
+}
+.c-reviews i{
+  padding: 5px 5px 5px 0px;
+  color:goldenrod;
+  margin: 10px 0px 20px;
+
+
+
+}
+.pic-style{
+background-color:#EFEFEF;
+display: flex;
+margin-top: 70px;
+margin:70px 20px 20px 20px;
+padding: 20px 20px;
+
+}
+.pic-div-style{
+  width:33.3%;
+  margin: 30px;
+
+}
+.trendy{
+  justify-content: center;
+  text-align: center;
+  font-family: 'Schibsted Grotesk', sans-serif;
+}
+.last-b-pic{
+  margin-top:30px ;
+  display: flex;
+
+}
+.l-det{
+  display: flex;
+  padding:40px  20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.l-cont{
+  background-color:#EFEFEF ;
+  width: 30%;
+  height: 500px;
+  padding: 0px 0px 0px 30px;
+  font-family: 'Schibsted Grotesk', sans-serif;
+}
+
+input:hover{
+  cursor: pointer;
+  background-color:burlywood;}
+.input-style{
+  background-color: black;
+  color: white;
+  border: none;
+  padding:10px 20px;
+  margin-top: 30px;
+
+  }
+.l-img{
+  display: flex;
+  flex-wrap: wrap;
+  width: 70%;
+  height: 500px;
+  margin-left: 40px;
+}
+.cys{
+  width: 100%;
+  height: 500px;
+}
+.two{
+  height: 500px;
+  width: 50%;
+}
+.footer{
+  background-color: black;
+  border: 1px solid black;
+  color:#EFEFEF;
+  padding:  50px 30px;
+  justify-content: space-around;
+}
+.footer-div{
+
+padding: 20px;
+display: flex;
+margin: 0px 50px;
+
+
+}
+.FOOTER-ICONS{
+  font-size: 40px;
+}
+@media(max-width:400px){
+  .responsiveness{
+      width: calc(100% -2px -40px);
+  }
+  
+}
+@media(min-width:401px){
+  .responsiveness{
+      width: calc(50% -2px -40px);
+  }
+  
+}
+@media(min-width:701px){
+ 
+  .responsiveness{
+      width: calc(33.33% -2px -40px);
+  }
+  
+}
+@media(min-width:1201px){
+ 
+  .responsiveness{
+      width: calc(25% -2px -40px);
+  }
